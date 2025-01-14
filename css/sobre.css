@@ -2,14 +2,14 @@
     background-image: url('../img/bg-informacoes.png');
     background-size: cover;
     background-position: center;
-    height: 200vh;
+    height: 150vh;
 }
 
 .informacoes2{
     background-image: url('../img/bg-informacoes.png');
     background-size: cover;
     background-position: center;
-    height: 180vh;
+    height: 150vh;
 }
 
 .content-titulo-sobre h2{
@@ -23,22 +23,17 @@
     font-weight: 100;
 }
 
-
-
-@media (min-width: 1900px) {
-    .informacoes{
-        height: 130vh;
-    }
-
-    .informacoes2{
-        height: 130vh;
-    }
-
-    
-}
-
 .content-video-sobre iframe{
     width: 70%;
+}
+
+@media (max-width: 1364px){
+    .informacoes{
+        height: 230vh;
+    }
+    .informacoes2{
+        height: 230vh;
+    }
 }
 
 @media (max-width: 995px){
